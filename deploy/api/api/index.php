@@ -6,6 +6,8 @@
     require __DIR__ . '/../vendor/autoload.php';
     require_once __DIR__ . '/../bootstrap.php';
 
+    $app->addErrorMiddleware(true, true, true);
+    
     $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/..");
     $dotenv->load();
 
