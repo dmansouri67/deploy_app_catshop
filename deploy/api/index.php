@@ -1,7 +1,7 @@
 <?php
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
-use Slim\Factory\AppFactory;
+// use Slim\Factory\AppFactory;
 use Tuupola\Middleware\HttpBasicAuthentication;
 use \Firebase\JWT\JWT;
 require __DIR__ . '/../vendor/autoload.php';

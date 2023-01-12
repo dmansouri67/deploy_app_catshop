@@ -1,6 +1,6 @@
 <?php
 
-    use Slim\Factory\AppFactory;
+    // use Slim\Factory\AppFactory;
     use Doctrine\ORM\EntityManager;
 
     require __DIR__ . '/../vendor/autoload.php';
